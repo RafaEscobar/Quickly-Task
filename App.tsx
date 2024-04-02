@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Image,
   SafeAreaView,
+  ScrollView,
   StyleSheet,
   Text,
   TextInput,
@@ -26,6 +27,20 @@ export default function App(){
               borderBottomColor: 'gray'
             }}
             placeholder={'Nombre'}
+          />
+          <TextInput
+            style={{
+              borderBottomWidth: 1,
+              borderBottomColor: 'gray'
+            }}
+            placeholder={'Correo electrónico'}
+          />
+          <TextInput
+            style={{
+              borderBottomWidth: 1,
+              borderBottomColor: 'gray'
+            }}
+            placeholder={'Contraseña'}
           />
         </View>
       </View>
@@ -91,5 +106,6 @@ const styles = StyleSheet.create({
     paddingTop: 34,
     paddingLeft: 36,
     paddingRight: 36,
+    gap: 22
   }
 })
